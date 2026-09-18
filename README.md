@@ -15,7 +15,7 @@ docker compose ps -a
 
 Interfaces locales : Airflow http://localhost:8080 ; MinIO http://localhost:9001 ; Dremio http://localhost:9047 (SQL `localhost:31010`). Credentials Dremio créés dans l'UI, credentials MinIO du fichier `.env`. Ne pas exposer ces ports ni ces credentials en production.
 
-## Pipeline : 5 tâches (ancien DAG 4 tâches remplacé par 5)
+## Pipeline : 5 tâches 
 
 `bronze_ingestion -> silver_processing -> gold_candidate -> quality_gate -> publish_gold`.
 
