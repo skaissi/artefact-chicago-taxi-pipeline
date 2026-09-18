@@ -43,9 +43,3 @@ docker compose exec airflow-scheduler python /opt/airflow/project/scripts/query_
 **À faire une fois manuellement** : Dremio → source Amazon S3 `chicago_lake` connectée à `minio:9000`; promouvoir les SIX nouveaux dossiers Parquet; créer les deux Spaces `ChicagoTaxi` / `ChicagoTaxi_Operations`, puis exécuter `sql/dremio_views.sql`. Guide pas à pas : `docs/DREMIO_SETUP_FR.md`.
 
 Les fichiers du **front Power BI 4 pages** sont sous `powerbi/ChicagoTaxi.pbip`. Ouvrir dans Desktop et remplacer les six tables M fictives par tes vues Dremio en conservant le schéma. Guide : `docs/POWERBI_CONNECTION_FR.md`. Aucune connexion ni fichier PBIX final ne sont promis sans test Windows.
-
-## 3. Data quality / limitations
-
-Voir `docs/DQ_RULES_FR.md` pour chaque règle codée et ses paramètres. `MAX_ROWS=150000` par défaut **n'est qu'un échantillon**, pas la totalité de Chicago. Les tables Gold sont des snapshots complets de la fenêtre courante, **non incrémentales**. Les trois réécritures Parquet après le gate restent **non atomiques au sens S3** : un consommateur en lecture pendant la publication peut voir un état mixte et un crash peut laisser des fichiers partiels. Voir `docs/ARCHITECTURE.md`.
-
-Tests sans Spark : `PYTHONPATH=src pytest -q tests/test_quality_policy.py tests/test_ingestion.py tests/test_dag_contract.py tests/test_paths_contract.py`; tests PySpark : `docker compose exec airflow-scheduler pytest -q /opt/airflow/project/tests/test_transforms.py` (image reconstruite). Tests d'intégration Docker, Power BI et Dremio non exécutés dans cet environnement ; à valider chez toi. Guide précis d'activation : `docs/INSTALLATION_V2_1_WINDOWS_FR.md`.
