@@ -1,0 +1,255 @@
+{
+  "pages": {
+    "01 | Executive overview": "bce059749d61c1c247c3",
+    "02 | Pickup zones": "26f94136f5db8afd4e9d",
+    "03 | Data quality": "a4c7df815c9b4d0ab6ee",
+    "04 | Rejection explorer": "d19ec0d1eab54b0a9e0b"
+  },
+  "visuals": [
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "banner",
+      "type": "textbox"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "demo",
+      "type": "textbox"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "section",
+      "type": "textbox"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "source",
+      "type": "textbox"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "banner",
+      "type": "textbox"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "demo",
+      "type": "textbox"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "section",
+      "type": "textbox"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "source",
+      "type": "textbox"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "date-slicer",
+      "type": "slicer"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Total trips-card",
+      "type": "cardVisual"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Declared revenue-card",
+      "type": "cardVisual"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "USD / trip-card",
+      "type": "cardVisual"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Weighted duration · min-card",
+      "type": "cardVisual"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Avg distance · miles-card",
+      "type": "cardVisual"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Daily trip volume",
+      "type": "lineChart"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Daily revenue",
+      "type": "clusteredColumnChart"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Daily detail",
+      "type": "tableEx"
+    },
+    {
+      "page": "bce059749d61c1c247c3",
+      "label": "Duration trend",
+      "type": "lineChart"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "card-Top 10 · trips",
+      "type": "cardVisual"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "card-Top 10 · USD",
+      "type": "cardVisual"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "card-Share of batch trips",
+      "type": "cardVisual"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "zone-grain-note",
+      "type": "textbox"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "Pickup zone trip ranking",
+      "type": "clusteredBarChart"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "Pickup zone revenue",
+      "type": "clusteredBarChart"
+    },
+    {
+      "page": "26f94136f5db8afd4e9d",
+      "label": "Pickup zone detail",
+      "type": "tableEx"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "banner",
+      "type": "textbox"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "demo-warning",
+      "type": "textbox"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "description",
+      "type": "textbox"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "footer",
+      "type": "textbox"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "kpi-raw-records",
+      "type": "cardVisual"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "kpi-clean-records",
+      "type": "cardVisual"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "kpi-rejected-records",
+      "type": "cardVisual"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "kpi-duplicates",
+      "type": "cardVisual"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "kpi-reject-rate",
+      "type": "cardVisual"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "kpi-gate-status",
+      "type": "cardVisual"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "section-rejections",
+      "type": "textbox"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "reject-reasons-bar",
+      "type": "clusteredBarChart"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "reconciliation-table",
+      "type": "tableEx"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "rejection-detail",
+      "type": "tableEx"
+    },
+    {
+      "page": "a4c7df815c9b4d0ab6ee",
+      "label": "batch-audit",
+      "type": "tableEx"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "banner",
+      "type": "textbox"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "demo",
+      "type": "textbox"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "desc",
+      "type": "textbox"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "kpi-Quarantined rows",
+      "type": "cardVisual"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "kpi-Invalid rows",
+      "type": "cardVisual"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "kpi-Duplicate rows",
+      "type": "cardVisual"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "section",
+      "type": "textbox"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "rejections-detail",
+      "type": "tableEx"
+    },
+    {
+      "page": "d19ec0d1eab54b0a9e0b",
+      "label": "footer",
+      "type": "textbox"
+    }
+  ]
+}

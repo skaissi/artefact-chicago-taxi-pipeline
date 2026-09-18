@@ -1,0 +1,12 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+
+ref table Fact_Daily_Revenue
+ref table Fact_Daily_Metrics
+ref table Fact_Top_Zones
+ref table DimDate
+ref table Fact_Quality_Batch
+ref table Fact_Quality_Reasons
+ref table Fact_Rejected_Records

@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+logs/
+*.log
+.DS_Store
+
+.env
+.pbi/
+*.pbix

@@ -1,0 +1,15 @@
+relationship 590aac04-2fea-4cbc-b559-653812ca4da6
+	fromColumn: Fact_Daily_Revenue.trip_date
+	toColumn: DimDate.Date
+
+relationship 3f6bd058-1f78-486c-924c-ac4aaa3e10a9
+	fromColumn: Fact_Daily_Metrics.trip_date
+	toColumn: DimDate.Date
+
+relationship 3d8faedb-0add-492d-b5b3-7e9f19bdc26f
+	fromColumn: Fact_Quality_Reasons.batch_id
+	toColumn: Fact_Quality_Batch.batch_id
+
+relationship 1900db7b-3019-4057-8fc3-93ff37b3eb2b
+	fromColumn: Fact_Rejected_Records.batch_id
+	toColumn: Fact_Quality_Batch.batch_id

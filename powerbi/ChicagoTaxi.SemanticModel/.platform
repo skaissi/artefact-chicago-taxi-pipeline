@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Chicago Taxi | Analytics Front"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0d9e9d7a-f663-49ba-bb13-37b5de2b626c"
+  }
+}
